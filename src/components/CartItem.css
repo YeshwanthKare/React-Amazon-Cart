@@ -6,9 +6,9 @@
 }
 
 .CartItem-image {
-    display: flex;
-    height: 180px;
-    width: 180px;    
+    /* display: flex; */
+    height: 360px;
+    width: 360px;    
 }
 
 .CartItem-image img {
