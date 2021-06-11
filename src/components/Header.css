@@ -1,0 +1,11 @@
+.App-header{
+  /* background-color: #131A22; */
+  background-color: #0A2546;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header h1 {
+  color: white;
+}

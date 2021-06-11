@@ -1,25 +1,22 @@
-import logo from './logo.svg';
+import React from "react"
+// import logo from './logo.svg';
+import Header from "./components/Header"
+import CartItems from "./components/CartItems"
 import './App.css';
+import CartTotal from "./components/CartTotal";
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Header title="Amazon Cart"/>
+        <div className="App-main">
+          <CartItems />
+          <CartTotal />
+        </div>
     </div>
-  );
+  )
+  
 }
 
 export default App;
