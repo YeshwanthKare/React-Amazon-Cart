@@ -8,7 +8,7 @@ function CartItems() {
 	    <h1>Shopping Cart</h1>
 	    <hr />
 	    <div className="CartItems-items">
-	    	<CartItem />
+	    	<CartItem />    
 	    </div>
 	</div>
     )
