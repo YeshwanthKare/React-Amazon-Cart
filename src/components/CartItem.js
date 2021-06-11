@@ -20,12 +20,14 @@ function CartItem() {
 			    <option value="3">Qty: 3</option>	
 			</select>    
 		    </div>
+		    <div className="items-line">|</div>
 		    <div className="item-delete">Delete</div>	
 		</div>
-		<div className="CartItem-price">
-		    $<span className="item-price">2,132</span>	
-		</div>
 	    </div>	
+	    <div className="CartItem-price">
+		$<span className="item-price">769.00</span>	
+	    </div>
+	    
 	</div>
     )
 }

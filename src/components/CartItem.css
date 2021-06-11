@@ -1,3 +1,39 @@
 .CartItem {
     display: flex;
+    margin-bottom: 14px;
+    margin-top: 14px
 }
+
+.CartItem-image {
+    height: 180px;
+    width: 180px;
+}
+
+.CartItem-image img {
+    object-fit: contain;
+    width: 100%;
+}
+
+.CartItem-info {
+    margin-left: 18px;
+    flex-grow: 1;
+}
+
+.CartItem-info h2 {
+    margin: 0;
+}
+
+.CartItem-price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item-actions {
+    display: flex;
+    /* margin-top: 20px; */
+}
+
+.item-actions div {
+    margin-right: 6px;
+}
+
