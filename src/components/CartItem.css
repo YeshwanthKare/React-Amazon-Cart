@@ -8,7 +8,10 @@
 .CartItem-image {
     /* display: flex; */
     height: 360px;
-    width: 360px;    
+    width: 360px;  
+    flex-grow: 0;
+    flex-shrink: 0; 
+    margin-right: 16px; 
 }
 
 .CartItem-image img {
@@ -46,6 +49,7 @@ select:focus {
 .CartItem-price {
     font-size: 18px;
     font-weight: 700;
+    margin-left: 16px;
 }
 
 .item-actions {
